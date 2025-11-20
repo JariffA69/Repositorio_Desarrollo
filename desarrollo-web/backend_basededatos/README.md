@@ -1,0 +1,5 @@
+Se realizó el código backend de la base de datos para poder comunicarnos con xampp desde el puerto 3307 debido a que el puerto 3306 estaba ocupado por workbench.
+Aquí se desarrolló el metodo hashing de las contraseñas que generan tokens para mayor seguridad de los datos de los usuarios.
+
+De igual forma, se desarrollaron las rutas de las tablas y metodos de consulta como son GET, PUT, update, create. Se hizo el model_user donde se ingresaron los datos/campos que se encuentran dentro de la tabla de usuarios para que tengan similitud y no haya fallos al momento de conectar con la db. De igual forma se definieron los parametros de la db en un file config para que pueda comunicarse directamente ingresando el host, db name, puerto, etc.
+Se adjuntan algunos de los files desarrollados en este proceso.
