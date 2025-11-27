@@ -1,0 +1,23 @@
+.mapContainer {
+    margin : 10;
+    text-align: center;
+    align-items: center;
+    
+}
+
+.contact{
+    margin-top: 10px;
+    text-align: center;
+    align-items: center;
+    color: #06578e;
+}
+
+.line{
+    width: 20%;
+    height: 3px;
+    background-color: #06578e;
+    margin: 5px auto;
+    transform: translateY(-15px);
+    
+}
+

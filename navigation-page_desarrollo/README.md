@@ -1,0 +1,1 @@
+Se generó nuevo folder de frontend para diseñar la ventana donde se encontrarán los resultados de búsqueda en el mapa para que el usuario pueda navegar. Se agregaron los files css, html y ts con los que se estarán trabajando para el maquetado
