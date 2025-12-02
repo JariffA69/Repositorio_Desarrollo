@@ -2,7 +2,7 @@
 Este repositorio contiene el trabajo realizado de cada sprint hecho.
 
 ## Version Actual
-v0.5 - Actualizado el 26 de noviembre de 2025
+v0.5 - Actualizado el 01 de diciembre de 2025
 
 ## Componentes
 - Sprint0 (Asignacion de roles)
