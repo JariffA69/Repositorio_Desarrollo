@@ -1,0 +1,4 @@
+*Se agregaron los files de edit (hmtl, css, ts)
+
+Esta ventana (edit) es la que se desplegará una vez que el administrador seleccione el botón "editar" en el usuario que quiera dentro de la lista de usuarios.
+Una vez dentro de esta ventana encontrará un pequeño formulario muy similar al de "crear usuario" donde podrá unicamente por el momento editar/actualizar el nombre, correo y telefono del usuario seleccionado y una vez listo los datos da click en "actualizar información" y lo redirijá al panel admin con los cambios realizados del usuario en la lista de usuarios y en la base de datos de mysql.
