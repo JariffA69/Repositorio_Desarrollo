@@ -2,3 +2,6 @@ Se realizaron consultas sql de nuestra base de datos, como son: get users, put, 
 
 Estas consultas sql se realizaron mediante el software Postman porque es el software que tenemos un poco más de conocimiento para la realización de esto.
 En este apartado se adjutarán las imagenes de algunos de estos métodos mencionados.
+
+//Actualizacón:
+Se anexa video de prueba del crud en el panel admin

@@ -3,3 +3,6 @@ Aquí se desarrolló el metodo hashing de las contraseñas que generan tokens pa
 
 De igual forma, se desarrollaron las rutas de las tablas y metodos de consulta como son GET, PUT, update, create. Se hizo el model_user donde se ingresaron los datos/campos que se encuentran dentro de la tabla de usuarios para que tengan similitud y no haya fallos al momento de conectar con la db. De igual forma se definieron los parametros de la db en un file config para que pueda comunicarse directamente ingresando el host, db name, puerto, etc.
 Se adjuntan algunos de los files desarrollados en este proceso.
+
+//Actualización:
+Se anexaron las routas de los roles y se modificaron algunos campos dentro de users_routes porque generaban errores e incongruencias. De igual forma se modificaron algunas lineas de código para que fuera más limpio y entendible para el desarrollador.
