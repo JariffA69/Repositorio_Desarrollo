@@ -11,3 +11,4 @@ v0.5 - Actualizado el 5 de noviembre de 2025
 - sprint3 (Resumen de repositorios)
 - sprint4 (Usuarios)
 - product backlog (lista de actividades)
+- Presentacion Ejecutiva (Integradora)
