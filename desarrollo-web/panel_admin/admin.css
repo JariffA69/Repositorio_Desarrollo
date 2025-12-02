@@ -1,0 +1,136 @@
+/* Configuraciones básicas para toda la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9; /* Fondo gris claro */
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.admin-panel {
+    width: 95%; /* Ocupa casi todo el ancho */
+    max-width: 1100px; /* Límite para que no sea muy grande en pantallas amplias */
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* Encabezado y botón de cerrar sesión */
+.panel-header {
+    display: flex;
+    justify-content: space-between; /* Mueve el botón al lado derecho */
+    align-items: center;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #eee;
+}
+
+.logout-btn {
+    background-color: #dc3545; /* Rojo */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.logout-btn:hover {
+    background-color: #c82333; /* Rojo más oscuro al pasar el ratón */
+}
+
+/* Botón de Crear Usuario (verde en la imagen) */
+.action-bar {
+    margin-bottom: 15px;
+}
+
+.create-user-btn {
+    background-color: #28a745; /* Verde */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.create-user-btn:hover {
+    background-color: #218838; /* Verde más oscuro */
+}
+
+/* Estilo de la tabla */
+.table-container {
+    overflow-x: auto; /* Permite desplazamiento en pantallas pequeñas */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse; /* Quita los bordes dobles */
+    font-size: 0.9em;
+}
+
+/* Encabezado de la tabla (No, Firstname, Lastname, etc.) */
+thead th {
+    background-color: #f8f9fa; /* Fondo muy claro para el encabezado */
+    color: #343a40; /* Color de texto oscuro */
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 2px solid #dee2e6;
+}
+
+/* Filas de datos */
+tbody tr {
+    border-bottom: 1px solid #dee2e6;
+}
+
+tbody td {
+    padding: 12px 15px;
+    vertical-align: middle;
+}
+
+/* Alternar color de fondo para mejorar la lectura (como la imagen original) */
+tbody tr:nth-child(even) {
+    background-color: #f8f8f8; 
+}
+
+/* Botones de acción (Ver, Editar, Eliminar) */
+.btn {
+    border: none;
+    padding: 8px 12px;
+    margin-right: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.85em;
+    transition: opacity 0.3s;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+/* Colores de los botones */
+.show-btn {
+    background-color: #17a2b8; /* Turquesa/Azul claro (Show) */
+    color: white;
+}
+
+.edit-btn {
+    background-color: #007bff; /* Azul (Edit) */
+    color: white;
+}
+
+.delete-btn {
+    background-color: #dc3545; /* Rojo (Delete) */
+    color: white;
+}
+
+/* Asegurar que la columna de acción no sea demasiado ancha */
+.action-col {
+    width: 200px; /* Ajusta este valor si necesitas más o menos espacio */
+    text-align: center;
+}
